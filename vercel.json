@@ -1,6 +1,6 @@
 {
     "name" : "Flasks Ticketless",
-    "version" : 1,
+    "version" : 2,
     "builds": [{
         "src" : "*py",
         "use": "@Das786/Flasks-Ticketless"
