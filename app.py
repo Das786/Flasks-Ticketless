@@ -77,7 +77,7 @@ def crowdPred():
     result = loaded_model.predict(np.array([[date,isHoliday,isWeekend,SPlace]]).tolist()).tolist()
     return jsonify({"Prediction": round(result[0])})
 
-@app.route("/members")
+@app.route("/")
 def members():
     json_members = [
 {
