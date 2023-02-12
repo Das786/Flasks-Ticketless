@@ -1,0 +1,15 @@
+{
+    "name" : "Flasks Ticketless",
+    "version" : 1,
+    "builds": [{
+        "src" : "*py",
+        "use": "@Das786/Flasks-Ticketless"
+    }],
+    "routes": [
+        {
+            "src": "(.*)",
+            "dest": "app.py"
+        }
+    ]
+
+}
